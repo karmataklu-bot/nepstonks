@@ -5,7 +5,7 @@ on:
     # Runs everyday at:
     # 12:15 AM UTC (GMT0:00) -> 06:00 AM Nepal Time (GMT+5:45)
     - cron: "15 00 * * *"
-  workflow_dispatch:
+    workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
